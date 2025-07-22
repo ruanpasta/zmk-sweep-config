@@ -3,7 +3,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
 
 / {
     behaviors {
@@ -20,18 +19,31 @@
 
     keymap {
         compatible = "zmk,keymap";
+
         default_layer {
             bindings = <
- 
- 
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
-  
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
- 
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P 
- 
-                                            &lt 2 TAB   &kp ENTER     &kp SPACE  &lt 1 BSPC
- 
+&kp Q          &kp W             &kp E           &kp R           &kp T        &kp F          &kp G            &kp C            &kp R              &kp L
+&ht LCTRL A    &ht LEFT_SHIFT O  &ht LEFT_ALT E  &ht LEFT_GUI U  &kp I        &kp D          &ht RIGHT_GUI H  &ht RIGHT_ALT T  &ht RIGHT_SHIFT N  &ht RCTRL S
+&kp SEMICOLON  &kp Q             &kp J           &kp K           &kp X        &kp B          &kp M            &kp W            &kp V              &kp Z
+                                                 &lt 1 TAB       &kp SPACE    &kp BACKSPACE  &lt 2 ENTER
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7         &kp N8    &kp N9     &kp N0
+&trans        &trans        &trans        &trans        &trans    &trans        &kp BACKSLASH  &kp PIPE  &kp SLASH  &kp QUESTION
+&trans        &trans        &trans        &trans        &trans    &trans        &trans         &trans    &trans     &trans
+                                          &trans        &trans    &trans        &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&kp ESC  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp DELETE
+&trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans    &trans  &trans
             >;
         };
     };
