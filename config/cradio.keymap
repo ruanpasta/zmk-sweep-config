@@ -70,7 +70,7 @@
             bindings = <
 &kp ESC           &kp Q  &kp W                  &kp E    &kp R           &trans         &trans  &trans  &kp P   &trans
 &kp LEFT_CONTROL  &kp A  &ht LEFT_ALT NUMBER_1  &kp D    &kp F           &trans         &trans  &trans  &trans  &trans
-&kp NUMBER_3      &kp Z  &kp NUMBER_2           &kp C    &kp NUMBER_4    &kp B          &trans  &trans  &trans  &trans
+&kp NUMBER_3      &kp Z  &kp NUMBER_2           &kp X    &kp NUMBER_4    &kp B          &trans  &trans  &trans  &trans
                                                 &kp TAB  &kp SPACE       &kp BACKSPACE  &trans
             >;
         };
