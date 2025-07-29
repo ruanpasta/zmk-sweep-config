@@ -43,7 +43,7 @@
             bindings = <
 &kp ESC  &kp DELETE      &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT         &kp PLUS   &mmv MOVE_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
 &trans   &kp UNDERSCORE  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP    &kp MINUS  &kp LEFT        &kp DOWN        &kp UP_ARROW  &kp RIGHT
-&trans   &tog 8          &tog 7             &tog 5            &tog 4             &kp EQUAL  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&tog 0   &tog 8          &tog 7             &tog 5            &tog 4             &kp EQUAL  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
                                             &trans            &trans             &trans     &trans
             >;
         };
