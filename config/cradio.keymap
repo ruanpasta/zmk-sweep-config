@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -40,10 +41,10 @@
 
         layer_t {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &tog 3  &tog 1  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&bt BT_SEL 0  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans  &trans    &tog 3  &tog 1  &trans  &trans  &trans
+                              &trans  &trans    &trans  &trans
             >;
         };
 
