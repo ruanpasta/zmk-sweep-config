@@ -77,10 +77,10 @@
 
         layer_cs {
             bindings = <
-&kp NUMBER_1      &kp Q  &kp W         &kp E         &kp R           &trans         &trans  &trans  &kp P   &trans
-&kp LEFT_CONTROL  &kp A  &kp S         &kp D         &kp G           &trans         &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &kp Z  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp B          &trans  &trans  &trans  &trans
-                                       &kp TAB       &kp SPACE       &kp BACKSPACE  &trans
+&kp NUMBER_1      &kp NUMBER_2  &kp W         &kp E         &kp R           &trans         &trans  &trans  &kp P   &trans
+&kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp G           &trans         &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp Z         &kp NUMBER_3  &kp NUMBER_3  &kp NUMBER_4    &kp B          &trans  &trans  &trans  &trans
+                                              &kp TAB       &kp SPACE       &kp BACKSPACE  &trans
             >;
         };
 
