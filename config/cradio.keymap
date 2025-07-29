@@ -38,12 +38,21 @@
             >;
         };
 
+        layer_t {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &tog 3  &tog 1  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
+
         layer_2 {
             bindings = <
-&kp ESC  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp DELETE
-&trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans    &trans  &trans
+&kp SQT        &kp COMMA  &kp PERIOD  &kp P   &kp Y     &kp F   &kp G   &kp C  &kp R  &kp L
+&kp A          &kp O      &kp E       &kp U   &kp I     &kp D   &kp H   &kp T  &kp N  &kp S
+&kp SEMICOLON  &kp Q      &kp J       &kp K   &kp X     &kp B   &kp M   &kp W  &kp V  &kp Z
+                                      &trans  &trans    &trans  &trans
             >;
         };
     };
