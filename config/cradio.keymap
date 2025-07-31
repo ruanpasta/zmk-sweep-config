@@ -28,7 +28,7 @@
         };
 
         layer_toggle {
-            bindings = <&sl 6>;
+            bindings = <&sl 5>;
             key-positions = <33 32>;
             timeout-ms = <150>;
         };
