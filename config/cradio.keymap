@@ -58,9 +58,9 @@
         layer_2 {
             bindings = <
 &kp ESC           &kp LC(A)       &kp LC(O)     &kp LC(P)     &kp LC(Y)    &kp LC(F)  &kp LC(G)  &kp LC(C)  &kp LC(R)     &kp DELETE
-&sk LEFT_CONTROL  &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LEFT_GUI  &kp TAB      &kp LC(D)  &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT
+&sk LEFT_CONTROL  &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LEFT_GUI  &kp TAB      &kp ENTER  &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT
 &kp LC(S)         &kp LC(Q)       &kp LC(J)     &kp LC(K)     &kp LC(X)    &kp LC(B)  &kp LC(M)  &kp LC(W)  &kp LC(V)     &kp LC(Z)
-                                                &trans        &trans       &kp ENTER  &mo 3
+                                                &trans        &trans       &trans     &mo 3
             >;
         };
 
@@ -105,7 +105,7 @@
 &kp ESC           &kp Q  &kp W                  &kp E    &kp R           &trans  &trans  &trans  &kp P   &trans
 &kp LEFT_CONTROL  &kp A  &ht LEFT_ALT NUMBER_1  &kp D    &kp F           &trans  &trans  &trans  &trans  &trans
 &kp NUMBER_3      &kp Z  &kp NUMBER_2           &kp X    &kp NUMBER_4    &kp B   &trans  &trans  &trans  &trans
-                                                &kp TAB  &kp SPACE       &trans  &trans
+                                                &kp TAB  &trans          &trans  &trans
             >;
         };
 
