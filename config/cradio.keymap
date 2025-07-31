@@ -39,10 +39,10 @@
 
         default_layer {
             bindings = <
-&kp SQT        &kp COMMA  &kp PERIOD  &kp P  &kp Y        &kp F           &kp G  &kp C  &kp R  &kp L
-&kp A          &kp O      &kp E       &kp U  &kp I        &kp D           &kp H  &kp T  &kp N  &kp S
-&kp SEMICOLON  &kp Q      &kp J       &kp K  &kp X        &kp B           &kp M  &kp W  &kp V  &kp Z
-                                      &mo 2  &kp SPACE    &kp LEFT_SHIFT  &sl 1
+&kp SQT        &kp COMMA  &kp PERIOD  &kp P  &kp Y        &kp F          &kp G  &kp C  &kp R  &kp L
+&kp A          &kp O      &kp E       &kp U  &kp I        &kp D          &kp H  &kp T  &kp N  &kp S
+&kp SEMICOLON  &kp Q      &kp J       &kp K  &kp X        &kp B          &kp M  &kp W  &kp V  &kp Z
+                                      &mo 2  &kp SPACE    &kp BACKSPACE  &sl 1
             >;
         };
 
@@ -57,9 +57,9 @@
 
         layer_2 {
             bindings = <
-&kp ESC           &kp LC(A)       &kp LC(O)     &kp LC(P)     &kp LC(Y)    &kp LC(F)  &kp LC(G)      &kp LC(C)          &kp LC(R)     &kp DELETE
-&sk LEFT_CONTROL  &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LEFT_GUI  &kp TAB      &kp LC(D)  &kp LEFT       &kp DOWN           &kp UP_ARROW  &kp RIGHT
-&kp LC(S)         &kp LC(Q)       &kp LC(J)     &kp LC(K)     &kp LC(X)    &kp LC(B)  &kp BACKSPACE  &kp LC(BACKSPACE)  &kp LC(V)     &kp LC(Z)
+&kp ESC           &kp LC(A)       &kp LC(O)     &kp LC(P)     &kp LC(Y)    &kp LC(F)  &kp LC(G)  &kp LC(C)  &kp LC(R)     &kp DELETE
+&sk LEFT_CONTROL  &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LEFT_GUI  &kp TAB      &kp LC(D)  &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT
+&kp LC(S)         &kp LC(Q)       &kp LC(J)     &kp LC(K)     &kp LC(X)    &kp LC(B)  &kp LC(M)  &kp LC(W)  &kp LC(V)     &kp LC(Z)
                                                 &trans        &trans       &kp ENTER  &mo 3
             >;
         };
