@@ -22,13 +22,13 @@
         compatible = "zmk,combos";
 
         settings {
-            bindings = <&sl 9>;
+            bindings = <&sl 7>;
             key-positions = <30 31>;
             timeout-ms = <300>;
         };
 
         layer_toggle {
-            bindings = <&mo 0>;
+            bindings = <&mo 8>;
             key-positions = <33 32>;
             timeout-ms = <150>;
         };
