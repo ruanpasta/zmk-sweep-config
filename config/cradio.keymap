@@ -28,7 +28,7 @@
         };
 
         layer_toggle {
-            bindings = <&sl 5>;
+            bindings = <&mo 5>;
             key-positions = <33 32>;
             timeout-ms = <150>;
         };
@@ -86,7 +86,7 @@
             bindings = <
 &to 7   &trans  &trans  &trans  &to 6     &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&to 8   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&to 8   &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans
                         &trans  &trans    &trans  &trans
             >;
         };
