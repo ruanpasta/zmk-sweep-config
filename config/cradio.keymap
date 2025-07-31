@@ -22,13 +22,13 @@
         compatible = "zmk,combos";
 
         settings {
-            bindings = <&sl 4>;
+            bindings = <&sl 9>;
             key-positions = <30 31>;
             timeout-ms = <300>;
         };
 
         layer_toggle {
-            bindings = <&mo 5>;
+            bindings = <&mo 0>;
             key-positions = <33 32>;
             timeout-ms = <150>;
         };
@@ -73,24 +73,6 @@
             >;
         };
 
-        layer_settings {
-            bindings = <
-&bootloader  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0    &trans  &trans  &trans  &trans  &bootloader
-&trans       &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans      &bt BT_SEL 3    &trans  &trans  &trans  &trans  &trans
-                             &trans      &trans          &trans  &trans
-            >;
-        };
-
-        layer_toggle {
-            bindings = <
-&to 7   &trans  &trans  &trans  &to 6     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&to 8   &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
-            >;
-        };
-
         layer_tibia {
             bindings = <
 &kp ESC           &kp Q           &kp UP_ARROW    &kp E            &kp F16      &kp F13  &kp F1  &kp F2   &kp F3   &kp F4
@@ -111,10 +93,28 @@
 
         layer_cs {
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2  &kp W         &kp E         &kp R           &kp Y   &trans  &trans  &kp P   &trans
-&kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp G           &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &kp Z         &kp NUMBER_5  &kp NUMBER_3  &kp NUMBER_4    &kp B   &trans  &trans  &trans  &trans
-                                              &kp TAB       &trans          &trans  &trans
+&kp NUMBER_1      &kp NUMBER_2  &kp W         &kp E    &kp R           &kp Y   &trans  &trans  &kp P   &trans
+&kp LEFT_CONTROL  &kp A         &kp S         &kp D    &kp G           &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp NUMBER_3  &kp NUMBER_5  &kp K    &kp NUMBER_4    &kp B   &trans  &trans  &trans  &trans
+                                              &kp TAB  &trans          &trans  &trans
+            >;
+        };
+
+        layer_settings {
+            bindings = <
+&bootloader  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0    &trans  &trans  &trans  &trans  &bootloader
+&trans       &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans      &bt BT_SEL 3    &trans  &trans  &trans  &trans  &trans
+                             &trans      &trans          &trans  &trans
+            >;
+        };
+
+        layer_toggle {
+            bindings = <
+&tog 5  &trans  &trans  &trans  &tog 4    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&tog 6  &trans  &trans  &trans  &tog 0    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
