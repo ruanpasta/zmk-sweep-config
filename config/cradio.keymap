@@ -89,10 +89,10 @@
 
         layer_cs {
             bindings = <
-&kp NUMBER_1      &kp NUMBER_3  &kp W         &kp E    &kp R           &trans         &trans  &trans  &kp P   &kp ESCAPE
-&kp LEFT_CONTROL  &kp A         &kp S         &kp D    &kp G           &trans         &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &kp NUMBER_2  &kp NUMBER_5  &kp K    &kp NUMBER_4    &kp B          &trans  &trans  &trans  &trans
-                                              &kp TAB  &kp SPACE       &kp BACKSPACE  &trans
+&kp E             &kp NUMBER_1  &kp W         &kp NUMBER_3  &kp R           &trans         &trans  &trans  &kp P   &kp ESCAPE
+&kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp G           &trans         &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp NUMBER_2  &kp NUMBER_5  &kp K         &kp NUMBER_4    &kp B          &trans  &trans  &trans  &trans
+                                              &kp TAB       &kp SPACE       &kp BACKSPACE  &trans
             >;
         };
 
