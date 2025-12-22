@@ -22,15 +22,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        settings {
-            bindings = <&sl 7>;
-            key-positions = <31 30>;
-            timeout-ms = <250>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -40,7 +32,7 @@
 &kp SQT      &kp COMMA         &kp PERIOD      &kp P           &kp Y        &kp F          &kp G            &kp C            &kp R              &kp L
 &ht LCTRL A  &ht LEFT_SHIFT O  &ht LEFT_ALT E  &ht LEFT_GUI U  &kp I        &kp D          &ht RIGHT_GUI H  &ht RIGHT_ALT T  &ht RIGHT_SHIFT N  &ht RCTRL S
 &lt 2 SEMI   &kp Q             &kp J           &kp K           &kp X        &kp B          &kp M            &kp W            &kp V              &kp Z
-                                               &lt 1 TAB       &kp SPACE    &kp BACKSPACE  &lt 8 ENTER
+                                               &lt 1 TAB       &kp SPACE    &kp BACKSPACE  &lt 0 ENTER
             >;
         };
 
@@ -62,12 +54,12 @@
             >;
         };
 
-        layer_type {
+        settings {
             bindings = <
-&kp SQT     &kp COMMA  &kp PERIOD  &kp P   &kp Y     &kp F   &kp G   &kp C  &kp R  &kp L
-&kp A       &kp O      &kp E       &kp U   &kp I     &kp D   &kp H   &kp T  &kp N  &kp S
-&lt 2 SEMI  &kp Q      &kp J       &kp K   &kp X     &kp B   &kp M   &kp W  &kp V  &kp Z
-                                   &trans  &trans    &trans  &trans
+&bootloader  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0    &kp PRINTSCREEN  &trans  &trans  &trans  &bootloader
+&trans       &trans  &trans  &trans      &bt BT_SEL 1    &kp C_AC_PRINT   &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans      &bt BT_SEL 3    &kp KP_NUMLOCK   &trans  &trans  &trans  &kp CAPSLOCK
+                             &trans      &trans          &trans           &trans
             >;
         };
 
@@ -85,7 +77,7 @@
 &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_5  &kp NUMBER_6    &trans         &trans  &trans  &kp P   &trans
 &kp LEFT_CONTROL  &kp Q         &kp W         &kp E         &kp R           &trans         &trans  &trans  &trans  &trans
 &kp A             &kp C         &kp NUMBER_4  &kp D         &kp F           &kp B          &trans  &trans  &trans  &trans
-                                              &kp TAB       &kp L           &kp BACKSPACE  &trans
+                                              &kp TAB       &trans          &kp BACKSPACE  &trans
             >;
         };
 
@@ -95,15 +87,6 @@
 &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp G           &trans         &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT    &kp NUMBER_2  &kp NUMBER_5  &kp K         &kp NUMBER_4    &kp B          &trans  &trans  &trans  &trans
                                               &kp TAB       &trans          &kp BACKSPACE  &trans
-            >;
-        };
-
-        settings {
-            bindings = <
-&bootloader  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0    &kp PRINTSCREEN  &trans  &trans  &trans  &bootloader
-&trans       &trans  &trans  &trans      &bt BT_SEL 1    &kp C_AC_PRINT   &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans      &bt BT_SEL 3    &kp KP_NUMLOCK   &trans  &trans  &trans  &kp CAPSLOCK
-                             &trans      &trans          &trans           &trans
             >;
         };
 
