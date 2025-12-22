@@ -17,6 +17,7 @@
             quick-tap-ms = <100>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
+
             hold-trigger-on-release;
         };
     };
@@ -84,7 +85,7 @@
 &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_5  &kp NUMBER_6    &trans         &trans  &trans  &kp P   &trans
 &kp LEFT_CONTROL  &kp Q         &kp W         &kp E         &kp R           &trans         &trans  &trans  &trans  &trans
 &kp A             &kp C         &kp NUMBER_4  &kp D         &kp F           &kp B          &trans  &trans  &trans  &trans
-                                              &kp TAB       &trans          &kp BACKSPACE  &trans
+                                              &kp TAB       &kp L           &kp BACKSPACE  &trans
             >;
         };
 
