@@ -17,6 +17,7 @@
             quick-tap-ms = <100>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
+            hold-trigger-on-release;
         };
     };
 
