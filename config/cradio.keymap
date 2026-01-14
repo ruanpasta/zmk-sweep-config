@@ -65,19 +65,19 @@
 
         layer_tibia {
             bindings = <
-&kp ESC           &kp Q           &kp UP_ARROW    &kp E            &kp F16    &kp F13        &kp F1  &kp F2   &kp F3   &kp F4
-&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F17    &kp F14        &kp F5  &kp F6   &kp F7   &kp F8
-&kp LEFT_SHIFT    &kp Z           &kp F19         &kp C            &kp F18    &kp F15        &kp F9  &kp F10  &kp F11  &kp F12
-                                                  &kp TAB          &trans     &kp BACKSPACE  &trans
+&kp ESC           &kp Q           &kp UP_ARROW    &kp E            &kp F16      &kp F13        &kp F1  &kp F2   &kp F3   &kp F4
+&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F17      &kp F14        &kp F5  &kp F6   &kp F7   &kp F8
+&kp RIGHT_SHIFT   &kp Z           &kp F19         &kp C            &mkp RCLK    &kp F15        &kp F9  &kp F10  &kp F11  &kp F12
+                                                  &kp TAB          &trans       &kp BACKSPACE  &trans
             >;
         };
 
         layer_lol {
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_5  &kp NUMBER_6    &trans         &trans  &trans  &kp P   &trans
-&kp LEFT_CONTROL  &kp Q         &kp W         &kp E         &kp R           &trans         &trans  &trans  &trans  &trans
-&kp A             &kp C         &kp NUMBER_4  &kp D         &kp F           &kp B          &trans  &trans  &trans  &trans
-                                              &kp TAB       &trans          &kp BACKSPACE  &trans
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_5  &kp LC(LEFT_ALT)    &trans         &trans  &trans  &kp P   &trans
+&kp LEFT_CONTROL  &kp Q         &kp W         &kp E         &kp R               &trans         &trans  &trans  &trans  &trans
+&kp A             &kp C         &kp NUMBER_4  &kp D         &kp F               &kp B          &trans  &trans  &trans  &trans
+                                              &kp TAB       &trans              &kp BACKSPACE  &trans
             >;
         };
 
