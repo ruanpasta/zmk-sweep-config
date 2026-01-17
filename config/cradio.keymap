@@ -65,10 +65,10 @@
 
         layer_tibia {
             bindings = <
-&kp ESC           &kp Q           &kp UP_ARROW    &kp E            &kp F16      &kp F13        &kp F1  &kp F2   &kp F3   &kp F4
-&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F17      &kp F14        &kp F5  &kp F6   &kp F7   &kp F8
-&kp RIGHT_SHIFT   &kp Z           &kp F19         &kp C            &mkp RCLK    &kp F15        &kp F9  &kp F10  &kp F11  &kp F12
-                                                  &kp TAB          &trans       &kp BACKSPACE  &trans
+&kp ESC           &kp Q           &kp UP_ARROW    &kp E            &kp LS(LA(LC(F9)))    &kp LC(LA(LS(F12)))  &kp F1  &kp F2   &kp F3   &kp F4
+&kp LEFT_CONTROL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(LA(LC(F8)))    &kp LS(LC(LA(F11)))  &kp F5  &kp F6   &kp F7   &kp F8
+&kp RIGHT_SHIFT   &kp Z           &kp F19         &kp C            &mkp RCLK             &kp LS(LA(LC(F10)))  &kp F9  &kp F10  &kp F11  &kp F12
+                                                  &kp TAB          &trans                &kp BACKSPACE        &trans
             >;
         };
 
